@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    background-color: rgb(181, 170, 155);
+}
+
+.main-header  ul {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* flex-direction: row;     */
+    flex-wrap: wrap;
+}
+.main-header  ul li{
+    margin:12px;
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+.main-header  ul li>a{
+    font-size: 26px;
+    font-weight: bold;   
+    text-decoration: none;
+    color:rgb(232, 216, 121);
+}
+
+.main-header  ul li>a:hover{
+    color:rgb(152, 99, 99);
+}
+
+
+/***** home page ******/
+.home-page{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.home-page img{
+
+    width: 80%;    
+}
+
+
+/*********/
+.calculator,.draw{
+    width:50%;
+    margin:20px;
+}
+
+.div-num{ 
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.input-num{
+    font-size:22px;
+    color:rgb(35, 91, 100);
+}
+.div-radio{    
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    /* align-items: center; */
+}
+input[type="radio"]{
+    font-size: 22px;
+    margin:10px;
+
+}
+
+.div-radio>div{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+
+input[type="submit"]{
+    padding:2%;
+    margin:2%;
+    width: 96%;
+    font-size:25px;
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: rgb(181, 170, 155);
+}
+
+/****** Multiplicastion Page *****/
+.multiplications{
+    display: flex;
+    flex-wrap: wrap;
+}
+.multiplication{
+    font-size: 22px;
+    padding:20px;
+    margin:10px;
+    border-radius: 10px 0px;
+    background-color: rgb(8, 65, 46);
+    color:beige;
+}
+
+
+
+
+/************* footer ***********/
+footer{
+    display:flex;
+    border-top: 1px solid #f4f4f4;
+    margin-top:5px;
+    padding-top:5px;
+}
+.footer-col{
+    padding:15px;
+    font-size: 20px;
+    line-height: 2em;
+}
+.footer-col:nth-child(2){
+    border-left:1px solid rgb(232, 216, 32);
+    border-right:1px solid rgb(232, 216, 32);
+}
